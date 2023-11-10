@@ -1,6 +1,4 @@
----
-title: "A flexible approach to model complex space-time event data"
----
+# A flexible approach to model complex space-time event data
 
 -   Manuscript available at ...
 -   **[Section 6.3] Simulation 1: mixture of time-dependent Gaussian distributions on a squared region**
