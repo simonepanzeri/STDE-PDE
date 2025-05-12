@@ -1,17 +1,13 @@
-# A flexible approach to model complex space-time event data
+## STDE-PDE: Spatio-Temporal Density and intensity Estimation with Partial Differential Equation regularization
 
--   Manuscript available at ...
--   **[Section 6.3] Simulation 1: mixture of time-dependent Gaussian distributions on a squared region**
-    -   /simulation_1/simulation_1.R [Figure 4, Figure 5]
-    -   /simulation_1/simulation_1_confidence_intervals.R [Figure 6]
--   **[Section 6.4] Simulation 2: mixture of time-dependent Kent distributions on the unit sphere**
-    -   /simulation_2/simulation_2.R [Figure 7, Figure 8]
--   **[Section 7.1] Application 1: Gastrointestinal infections**
-    -   /application_1/application_1.R [Figure 1, Figure 3, Figure 9, Figure 10]
--   **[Section 7.2] Application 2: Earthquakes of large magnitude**
-    -   /application_2/application_2.R [Figure 2, Figure 3, Figure 10, Figure 11]
--   **[Appendix F] Additional simulation on a general surface**
-    -   /simulation_3/simulation_3.R [Figure F.12, Figure F.13, Figure F.14]
--   **[Appendix G] Additional simulation in an intensity estimation setting**
-    -   /simulation_1/simulation_1_intensity.R [Figure G.15]
- 
+# A Nonparametric Penalized Likelihood Approach to Density Estimation of Space-Time Point Patterns
+The work focuses on spatio-temporal event data (i.e., pairs of location-time denoting where and when the event of interest occurred) evolving over time in two-dimensional planar and curved regions, possibly endowed with non-standard geometries (e.g., irregular boundaries, concavities, and holes). The article proposes a novel method for non-parametric density estimation, combining maximum likelihood with roughness penalties based on differential operators in both space and time. Besides proving important theoretical properties (e.g., well-posedness of the estimation problem, consistency of the estimator, equivalence to intensity estimation), the work extensively validates the proposed method through simulation studies and applications to epidemiological and seismic data.
+
+To cite the work:
+Begu, B., **Panzeri, S.**, Arnone, E., Carey, M., & Sangalli, L. M. (2024). A nonparametric penalized likelihood approach to density estimation of space-time point patterns. *Spatial Statistics* 61. https://doi.org/10.1016/j.spasta.2024.100824
+
+# Spatio-Temporal Intensity Estimation for Inhomogeneous Poisson Point Processes on Linear Networks: A Roughness Penalty Method
+The work develops a method for spatio-temporal intensity estimation within the framework of inhomogeneous Poisson point processes. Specifically, the proposed method focuses on point patterns evolving over time in network-constrained regions. The (non-separable) intensity estimate is computed by penalizing the maximum likelihood estimate using roughness penalties. The spatial component of the regularization term is incorporated into the modeling framework through a differential operator appropriately defined on linear networks. The proposed method outperforms the alternative techniques considered in the article, as demonstrated by simulation studies conducted across different settings and by an application to road accidents that occurred in Bergamo, Italy, from 2017 to 2019.
+
+To cite the work:
+**Panzeri, S.**, Clemente, A., Arnone, E., Mateu, J., Sangalli, L. M. (2025). Spatio-temporal intensity estimation for inhomogeneous Poisson point processes on linear networks: A roughness penalty method. Submitted to *Spatial Statistics*.
